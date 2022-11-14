@@ -1,6 +1,12 @@
-body {
-  // background-color: #31353a;
+.teste {
+  display: flex;
+
+  @media screen and (max-width: 500px) {
+    display: block;
+  }
+
 }
+
 
 .repoList {
   display: flex;
@@ -31,15 +37,8 @@ body {
     input {
       margin-right: 3px;
       padding: 8px 12px 4px;
-      // box-sizing: border-box;
-      // border: unset;
       border-radius: 5px;
-      // background-color: #5D677C;
       border:2px solid #000000 ;
-
-      &::placeholder {
-        // color: #BFBFBF;
-      }
     }
 
     @media screen and (min-width: 980px) {
@@ -52,34 +51,37 @@ body {
   }
 }
 
-.item {
-  border:2px solid #005d72;
-  border-radius: 8px;
-  box-shadow: 2px 4px 4px #0000009F;
-  padding: 6px;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  font-size: 1.3rem;
+// .item {
+//   border:2px solid #005d72;
+//   border-radius: 8px;
+//   box-shadow: 2px 4px 4px #0000009F;
+//   padding: 6px;
+//   width: 50%;
+//   display: flex;
+//   flex-direction: column;
+//   list-style: none;
+//   font-size: 1.3rem;
 
-  a {
-    button {
-      border:2px solid #005d72;
-      // color: #00000;
-    }
+//   a {
+//     cursor: auto;
 
-    button:hover {
-      color: #FFFFFF;
-      background-color: #000000;
-    }
-  }
+//     button {
+//       border:2px solid #005d72;
+//       cursor: pointer;
+//       // color: #00000;
+//     }
 
-  span {
-    color: #005d72;
-  }
+//     button:hover {
+//       color: #FFFFFF;
+//       background-color: #000000;
+//     }
+//   }
 
-  strong {
-    color: #000000;
-  }
-}
+//   span {
+//     color: #005d72;
+//   }
+
+//   strong {
+//     color: #000000;
+//   }
+// }
